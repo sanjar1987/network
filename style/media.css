@@ -1,0 +1,573 @@
+@media(max-width:1050px)
+{
+    .box_three{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .header{
+        background-position: center;
+        position: relative;
+    }
+    .button:focus .header_nav_right{
+        top: 30px;
+    }
+    .header_nav_right{
+        width: 80px;
+        position: absolute;
+        left: 50%;
+        margin-left: 0;
+        top: -140px;
+        flex-direction: column;
+        align-items: center;
+        transition: .2s;
+    }
+    .list{
+        line-height: 30px;
+    }
+    .header_nav_right ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        position: absolute;
+    }
+    .header_left{
+        display: none;
+    }
+    .label{
+        display: inline;
+    }
+    #bar:checked + .header_nav_right{
+        top: 40px;
+    }
+
+    .worlds {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left_h {
+        margin-bottom: 50px;
+    }
+    .worlds img{
+        margin-bottom: 30px;
+    }
+    .book_app{
+        margin-top: 0;
+    }
+    .book{
+        height: 610px;
+    }
+
+    .company_lists{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+    }
+    .company{
+        height: 100%;
+    }
+       
+}
+@media(max-width: 1100px){
+    .boxs_nine{
+        grid-column: 1fr 1fr;
+        justify-content: center;
+        margin-top: 90px;
+        margin-bottom: 192px;
+    }
+}
+@media(max-width: 1070px){
+    .box_six{
+        justify-content: center;
+    }
+    .box_two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left_h h2{
+        text-align: center;
+    }
+    .left_h p{
+        text-align: justify;
+    }
+}
+@media(max-width: 900px){
+    .book {
+        height: 830px;
+    }
+    .book_app {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .img_book{
+        /* height: 415px; */
+        width: 100%;
+        background-image: url(../img/book2.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+    .book_list {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        height: 695px;
+    }
+    .book_list{
+        align-items: center;
+    }
+    .book_list h3{
+        margin: 0;
+    }
+    .book_place{
+        width: 100%;
+    }
+    .book_link{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    .company_lists{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}
+@media(max-width: 770px){
+    .book_link{
+        padding: 15px 38%;
+    }
+}
+@media(max-width: 730px){
+    .boxs_two{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 190px;
+    }
+    .agency{
+        height: 180px;
+        padding: 15px 0;
+    }
+    .agencys{
+        flex-direction: column; 
+        height: 0;    
+    }
+    .agency_h p{
+        margin-bottom: 45px;
+    }
+    .footer_last_df{
+        flex-direction: column;
+        align-items: start;
+        margin-left: 70px;
+        justify-content: center;
+    }
+    .l_icon{
+        margin-left: 0;
+        margin-right: 22px;
+        margin-top: 10px;
+    }
+    .footer_last{
+        height: 100px;
+    }
+}
+@media( max-width: 650px){
+    .intro{
+        align-items: center;
+    }
+    .intro h1{
+        text-align: center;
+    }
+    .header_nav_right{
+        left: 43%;
+    }
+    .bars{
+        right: 50px;
+    }
+    .box_three{
+        margin-bottom: 140px;
+    }
+    .boxs_nine{
+        margin-top: 80px;
+        margin-bottom: 170px;
+    }
+    .book_link{
+        font-size: 13px;
+        padding: 0 30%;
+    }
+}
+@media( max-width: 550px){
+    .header{
+        height: 600px;
+    }
+    .header_logo a{
+        font-size: 15px;
+    }
+    .bars{
+        font-size: 15px;
+    }
+    .intro h1{
+        font-size: 45px;
+        line-height: 65px;
+        width: 300px;
+    }
+    .intro h4{
+        font-size: 15px;
+        line-height: 20px;
+        width: 250px;
+    }
+    .title_bottom{
+        font-size: 10px;
+        padding: 10px 28px;
+    }
+
+    .boxs{
+        width: 290px;
+        height: 180px;
+        padding: 25px 30px;
+    }
+    .boxs i {
+        font-size: 30px;
+    }
+    .boxs h3 {
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0;
+    }
+    .boxs p {
+        width: 180px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .box_three{
+        gap: 20px;
+    }
+
+    .section_title{
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .section_text{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .box_six{
+        margin-top: 50px;
+        margin-bottom: 130px;
+        gap: 20px;
+    }
+
+    .box_six_bns {
+        width: 280px;
+        height: 150px;
+        padding: 25px;
+    }
+    .user{
+        font-size: 30px;
+    }
+    .box_six_bns h5{
+        font-size: 12px;
+        line-height: 16px;
+        width: 150px;
+    }
+    .box_six_bns p{
+        font-size: 11px;
+        line-height: 15px;
+        margin-top: 9px;
+    }
+
+    .box_two_bns{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 330px;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .img2{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: 100%;
+    }
+    .box_two_bns_left{
+        width: 330px;
+        height: 250px;
+    }
+    .box_two {
+        gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 180px;
+    }
+    .boxs_nine{
+        margin-top: 60px;
+        margin-bottom: 130px;
+    }
+    .boxs_two{
+        margin-top: 50px;
+        margin-bottom: 140px;
+        gap: 20px;
+    }
+    .left_h h2{
+        font-size: 30px;
+        line-height: 42px;
+        width: 380px;
+    }
+    .left_h p{
+        font-size: 12px;
+        line-height: 17px;
+        width: 380px;
+    }
+    .worlds img{
+        margin-bottom: 20px;
+        margin-top: 18px;
+    }
+    .book_link{
+        padding: 15px 33%;
+    }
+    .agency_h h3{
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+    }
+    .agency_h p {
+        margin-bottom: 45px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .company_lists{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .list{
+        margin-left: 0;
+    }
+    .footer_last_df{
+        margin-left: 50px;
+    }
+}
+@media(max-width:480px){
+    .book_link{
+        padding: 15px 30%;
+    }
+    .footer_last_df h6{
+        width: 250px;
+    }
+    .footer_last {
+        height: 160px;
+    }
+    .f_l_icon{
+        margin-top: 10px;
+    }
+}
+@media(max-width:420px){
+    .agency_h p{
+        margin-bottom: 30px;
+    }
+    .book_link{
+        padding: 15px 29%;
+    }
+}
+
+@media( max-width: 400px){
+    .header_logo a{
+        font-size: 10px;
+    }
+    .bars{
+        font-size: 10px;
+        top: 45px;
+        right: 33px;
+    }
+    .list{
+        font-size: 10px;
+        
+    }
+    .intro h1{
+        font-size: 35px;
+        line-height: 50px;
+        width: 300px;
+        margin-top: 30px;
+        margin-bottom: 15px
+    }
+    .intro h4{
+        font-size: 12px;
+        line-height: 20px;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 27px;
+    }
+    .title_bottom{
+        font-size: 8px;
+        padding: 8px 20px;
+    }
+    .header{
+        height: 440px;
+    }
+    .list {
+        line-height: 20px;
+    }
+    .header_nav_right{
+        left: 38%;
+    }
+
+    .boxs{
+        width: 220px;
+        height: 130px;
+        padding: 15px 20px;
+    }
+    .boxs i {
+        font-size: 20px;
+    }
+    .boxs h3 {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 5px 0;
+    }
+    .boxs p {
+        width: 150px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .box_six_bns {
+        width: 220px;
+        height: 130px;
+        padding: 15px;
+        padding-top: 25px;
+    }
+
+    .section_title{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .section_text{
+        font-size: 9px;
+        line-height: 20px;
+        /* width: 250px; */
+        margin: 0;
+        margin-right: 0;
+    }
+    .box_six{
+        margin-top: 30px;
+        margin-bottom: 80px;
+        gap: 20px;
+    }
+    .box_three{
+        gap: 10px;
+        margin-bottom: 70px;
+    }
+
+    .user{
+        font-size: 20px;
+    }
+    .box_six_bns h5{
+        font-size: 9px;
+        line-height: 12px;
+        width: 150px;
+    }
+    .box_six_bns p{
+        font-size: 9px;
+        line-height: 15px;
+        margin-top: 5px;
+    }
+
+    .box_two_bns{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        width: 300px;
+    }
+    .box_two_bns_left{
+        width: 300px;
+        height: 200px;
+        padding: 30px 20px;
+    }
+    .box_two_bns_left h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .box_two_bns_left h6 {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .box_two_bns_left img {
+        margin-bottom: 13px;
+    }
+    .box_two_bns_left p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .box_two {
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .boxs_nine{
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .boxs_nine_right{
+        width: 300px;
+        height: 140px;
+        padding: 15px 0px 15px 61px;
+
+    }
+    .boxs_nine_right h5{
+        font-size: 14px;
+    }
+
+    .boxs_two_up{
+        width: 310px;
+        height: 610px;
+        gap: 20px;
+        padding: 30px 0;
+    }
+    .boxs_two_up h5 {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    .dollar {
+        margin: 10px 0px;
+    }
+    .item{
+        margin-top: 15px;
+        padding: 15px 80px;
+    }
+    .boxs_two{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        gap: 15px;
+    }
+
+    .left_h h2{
+        font-size: 25px;
+        line-height: 42px;
+        width: 320px;
+    }
+    .left_h p{
+        font-size: 11px;
+        line-height: 17px;
+        width: 320px;
+    }
+    .worlds img{
+        margin-bottom: 20px;
+        margin-top: 8px;
+        width: 100%;
+        height: 100%;
+    }
+    .book_link{
+        padding: 15px 20%;
+    }
+    .company_lists{
+        margin-left: 0;
+    }
+}
